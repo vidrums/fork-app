@@ -1,0 +1,120 @@
+@import "./navbar";
+.header {
+  background-image: url(../img/header/header-bg.png);
+  height: 800px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.header-content-wrap {
+  padding: 0 10px;
+}
+
+.header-title-wrap {
+  text-align: center;
+
+  &__title {
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 82px;
+    line-height: 82px;
+    color: #fff;
+    padding-top: 80px;
+  }
+
+  &__desc {
+    font-family: "Lato";
+    font-size: 30px;
+    line-height: 30px;
+    color: #8d81ac;
+    padding-top: 20px;
+  }
+
+  &__caption {
+    font-family: "Montserrat";
+    font-size: 16px;
+    line-height: 16px;
+    color: #848e97;
+    text-transform: uppercase;
+    padding-top: 20px;
+    font-weight: 400;
+  }
+  @media only screen and (max-width: 992px) {
+    &__title {
+      font-size: 72px;
+      line-height: 72px;
+    }
+    &__desc {
+      font-size: 24px;
+      line-height: 24px;
+    }
+    &__caption {
+      font-size: 14px;
+      line-height: 14px;
+    }
+  }
+  @media only screen and (max-width: 480px) {
+    &__title {
+      font-size: 48px;
+      line-height: 48px;
+    }
+    &__desc {
+      font-family: "Montserrat";
+      font-size: 18px;
+      line-height: 24px;
+      text-transform: capitalize;
+    }
+    &__caption {
+      font-size: 14px;
+      line-height: 14px;
+    }
+  }
+}
+
+.header-btn {
+  color: #fff;
+  background-color: #8d81ac;
+  border-radius: 40px;
+  font-family: "Montserrat";
+  font-weight: 700;
+  border: 2px solid #8d81ac;
+  border-radius: 40px;
+  &:hover {
+    color: #8d81ac;
+    background-color: #fff;
+  }
+}
+
+.download-btn-wrap {
+  position: absolute;
+  bottom: -68px;
+  display: flex;
+  width: calc(100% - 20px);
+  align-items: center;
+  flex-direction: column;
+  @media only screen and (max-width: 480px) {
+    bottom: -60px;
+  }
+
+  &__btn {
+    padding: 20px 58px;
+    font-size: 21px;
+    line-height: 22px;
+    @media only screen and (max-width: 480px) {
+      padding: 14px 28px;
+      font-size: 18px;
+      line-height: 20px;
+    }
+  }
+
+  &__caption {
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 15px;
+    color: #848e97;
+    padding-top: 20px;
+  }
+}

@@ -1,0 +1,281 @@
+
+.fork-pricing{
+  background-image: url(../img/prices/prices-bg.png);
+  background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 90px;
+  padding-bottom: 30px;
+  margin-top: -16px;
+}
+  
+
+.fork-flex{
+  display: flex;
+  column-gap: 20px;
+  
+
+@media screen and (min-width: 480px) and (max-width:830px) {
+  & {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+ 
+  }
+}
+
+@media screen and (max-width:482px) and (min-width:320px){
+
+  & {
+   display: flex;
+   flex-wrap: wrap;
+   row-gap: 20px;
+   justify-content: space-around;
+  }
+}
+@media screen and (max-width:480px) {
+  & {
+    padding: 0 32px;
+  }
+
+}
+}
+.fork-title{
+  font-family: 'Montserrat';
+  font-weight: 700;
+font-size: 48px;
+line-height: 50px;
+color: #FFFFFF;
+text-align: center;
+margin-bottom: 60px;
+
+@media screen and (max-width:480px){
+  &{
+    font-size: 28px;
+line-height: 42px;
+max-width: 306px;
+margin: 0 auto;
+padding-bottom: 32px;
+  }
+}
+
+ } 
+
+.card-item{
+  width: 24%;
+ padding-bottom: 36px;
+  background-color:  rgba(255, 255, 255, 0.1);
+  text-align: center;
+  align-self: center;
+
+  @media screen and (max-width:830px) {
+    & {
+      width: 33%;
+    }
+  }
+
+
+  @media screen and (max-width:480px) and (min-width:320px) {
+    & {
+      width: 80%;
+    }
+  }
+
+&__dollar{
+  font-family: 'Montserrat';
+  font-weight: 700;
+font-size: 60px;
+line-height: 90px;
+color: #FFFFFF;
+}
+
+ &__title{
+  font-family: 'Montserrat';
+  font-size: 24px;
+  line-height: 24px;
+  color: #FFFFFF;
+  padding: 36px 0;
+  background-color:  rgba(255, 255, 255, 0.1);
+  margin-bottom: 20px;
+  text-transform: uppercase;
+
+  @media screen and (max-width:830px) {
+    &{
+      font-size: 19px;
+
+    }
+  }
+  @media screen and (max-width:480px){
+
+   &{
+    font-size: 19px;
+   }
+  }
+
+ }
+ 
+ &__price{
+  font-family: 'Montserrat';
+  font-weight: 400;
+font-size: 60px;
+line-height: 90px;
+color: #FFFFFF;
+
+ }
+
+ &__per-month{
+  font-family: 'Montserrat';
+  text-transform: uppercase;
+font-size: 14px;
+line-height: 16px;
+color: white;
+margin-bottom: 38px;
+
+ }
+
+ &__fork-line{
+
+  width: 60px;
+  height: 5px;
+  background: #8D81AC;
+  border: none;
+  margin-bottom: 36px;
+ }
+
+ &__licens{
+font-size: 16px;
+line-height: 18px;
+color: #FFFFFF;
+font-family: 'Montserrat';
+ }
+&__purchase{
+font-family: 'Montserrat';
+font-size: 15px;
+line-height: 15px;
+text-transform: uppercase;
+color: #FFFFFF;
+background-color:  rgba(255, 255, 255, 0.1);
+border: none;
+border-radius: 50px;
+width: 180px;
+height: 45px;
+cursor: pointer;
+
+}
+
+
+
+&__text-wrapp{
+  margin-bottom: 48px;
+}
+
+&__text-wrapper{
+  margin-bottom: 67px;
+}
+}
+
+.big-img-wrapp{
+  width: 100%;
+  text-align: right;
+}
+
+  
+
+.big-card{
+  
+  width: 28%;
+  height: 560px;
+  text-align: center;
+  background-color: #523554;
+  background: rgba(70, 48, 72, 1);
+  align-self: baseline;
+
+@media screen and (max-width:830px) and (min-width:480px) {
+  & {
+    width: 35%;
+    margin-left: -40px;
+  }
+}
+
+  @media screen and (max-width:480px) and (min-width:320px) {
+    & {
+      width: 100%;
+    }
+  }
+
+
+  &__title{
+    font-family: 'Montserrat';
+    padding: 43px;
+   background-color:rgba(0, 0, 0, 1);
+  font-size: 24px;
+  line-height: 24px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  margin-bottom: 14px;
+  }
+ 
+&__price{
+  font-family: 'Montserrat';
+font-size: 82px;
+line-height: 90px;
+color: #FFFFFF;
+margin-bottom: 16px;
+}
+
+
+&__per-month{
+  font-family: 'Montserrat';
+  margin-bottom: 46px;
+  text-transform: uppercase;
+font-size: 14px;
+line-height: 16px;
+color: white;
+}
+
+&__line{
+  width: 60px;
+  height: 5px;
+  background: #8D81AC;
+  border: none;
+  margin-bottom: 50px;
+}
+
+&__licens{
+  font-family: 'Montserrat';
+  font-size: 16px;
+line-height: 18px;
+  color: #FFFFFF;
+}
+&__text-wrapp{
+  margin-bottom: 100px;
+  
+}
+
+&__purchase{
+  font-family: 'Montserrat';
+  font-size: 15px;
+  line-height: 15px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  background-color:  rgba(255, 255, 255, 0.1);
+  border: none;
+  border-radius: 50px;
+  width: 180px;
+  height: 45px;
+  cursor: pointer;
+}
+}
+.dollar{
+  font-family: 'Montserrat';
+  font-weight: 700;
+}
+
+
+
+
+

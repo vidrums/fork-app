@@ -1,0 +1,100 @@
+.reviews {
+  background-image: url(../img/reviews/reviews-bg.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 108px;
+  text-align: center;
+
+  &__title {
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 50px;
+    color: #fff;
+  }
+
+  @media only screen and (max-width: 992px) {
+    padding-top: 86px;
+
+    &__title {
+      font-size: 42px;
+      line-height: 44px;
+    }
+  }
+  @media only screen and (max-width: 480px) {
+    padding-top: 56px;
+    &__title {
+      font-size: 36px;
+      line-height: 48px;
+    }
+  }
+}
+
+.reviews-content {
+  text-align: center;
+}
+
+.reviews__grid-wrapp {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-row-gap: 110px;
+  grid-column-gap: 12px;
+  padding: 80px 0 114px;
+  justify-content: center;
+  justify-items: center;
+  align-items: baseline;
+
+  @media screen and (max-width: 992px) {
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 56px;
+    padding-bottom: 64px;
+  }
+  @media screen and (max-width: 480px) {
+    grid-template-columns: 290px;
+    grid-row-gap: 40px;
+    padding-bottom: 30px;
+    padding-top: 50px;
+  }
+
+  &__item {
+    display: flex;
+    flex-direction: column;
+    max-width: 345px;
+    row-gap: 28px;
+  }
+  &__text {
+    font-family: "Lato-Italic";
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #fff;
+  }
+}
+.reviews-footer {
+  padding-bottom: 16px;
+  max-width: 886px;
+  margin: 0 auto;
+  &::after {
+    content: "";
+    display: block;
+    max-width: 88%;
+    height: 2px;
+    background-color: #645766;
+    margin: 15px auto 0;
+  }
+  &__text {
+    font-family: "Lato";
+    font-size: 14px;
+    line-height: 21px;
+    color: #a291a5;
+  }
+
+  @media only screen and (max-width: 992px) {
+    max-width: 704px;
+  }
+  @media only screen and (max-width: 480px) {
+    max-width: 88%;
+  }
+}
+

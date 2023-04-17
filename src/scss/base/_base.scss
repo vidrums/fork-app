@@ -1,0 +1,15 @@
+@import "../variables/variables";
+@import "./reset";
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  min-width: 320px; //мин. ширина контента 320 + паддинг по 10пикс
+  margin: 0 auto;
+  padding: 0 10px;
+  box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
